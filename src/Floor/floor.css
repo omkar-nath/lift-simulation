@@ -1,0 +1,24 @@
+.floor {
+  width: 100vh;
+  height: 155px;
+  background-color: lightcoral;
+  display: flex;
+  align-items: center;
+  position: relative;
+  border: 1px solid brown;
+}
+
+.buttons {
+  width: 40px;
+  z-index: 300;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 110px;
+}
+
+.floorno {
+  margin-left: 4px;
+}

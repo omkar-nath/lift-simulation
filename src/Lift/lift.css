@@ -1,0 +1,25 @@
+.lift {
+  width: 100px;
+  height: 150px;
+  background-color: darkgray;
+  display: flex;
+  position: absolute;
+  z-index: 10;
+  margin-left: 80px;
+  justify-content: space-between;
+}
+
+.door {
+  width: 48px;
+  background-color: black;
+  height: 100%;
+  transition: width 2s;
+}
+
+.door-open {
+  width: 2px;
+}
+
+.door-close {
+  width: 48px;
+}
